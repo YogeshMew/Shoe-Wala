@@ -1,0 +1,63 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center items */
+    padding: 15px 20px; /* Increase padding for better spacing */
+    background-color: rgb(0, 119, 255); /* Dark background color */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Navigation items */
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    margin-left: 20px; /* Add some space between list items */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for list items */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold; /* Make the text bold */
+}
+
+.nav-items > ul > li:hover {
+    background-color: #555; /* Darker background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Increase logo width */
+    margin-right: 20px; /* Increase space between logo and navigation */
+}
+
+/* Link styling */
+.nav-items > ul > li > a {
+    text-decoration: none;
+    color: white; /* Text color */
+}
+
+.nav-items > ul > li > a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.card > img{
+    width: 100%;
+}
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}
